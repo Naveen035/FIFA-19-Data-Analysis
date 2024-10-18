@@ -1,10 +1,10 @@
 
 ---
 
-# ❤️ **Heart Problem Data Analysis**
+# ⚽ **FIFA-19 Player Data Analysis**
 
 ## **Overview**
-This project involves a comprehensive analysis of heart disease data to uncover patterns and insights that could aid in predicting heart problems. Using **Seaborn** and **Matplotlib**, visualizations were created to explore relationships between various features such as **age**, **cholesterol levels**, **blood pressure**, and other vital indicators.
+This project involves analyzing the **FIFA-19** player dataset to extract meaningful insights and understand player attributes and their impact on performance. Using **Seaborn** and **Matplotlib**, the analysis explores various aspects of player characteristics, including age, skill level, potential, and overall ratings.
 
 ## **Table of Contents**
 - [Dataset](#dataset)
@@ -16,36 +16,41 @@ This project involves a comprehensive analysis of heart disease data to uncover 
 - [License](#license)
 
 ## 📂 **Dataset**
-The dataset includes various attributes relevant to heart health, such as:
+The dataset used in this project includes player information from the **FIFA-19** game, with attributes such as:
 - **Age**
-- **Cholesterol Levels**
-- **Blood Pressure**
-- Other indicators influencing heart disease risk.
+- **Overall Rating**
+- **Potential**
+- **Position**
+- **Value**
+- **Wage**
+- **Skill Levels**
+- **Preferred Foot**
 
 ## 💻 **Installation**
-To run this project, ensure Python is installed along with the required libraries:
+To run this project, you need to have Python installed along with the following libraries:
 
 ```bash
 pip install pandas seaborn matplotlib
 ```
 
 ## 📝 **Data Analysis**
-The analysis process consisted of:
-1. **Data Cleaning**: Preprocessing the dataset to manage missing values and format data consistently.
-2. **Exploratory Data Analysis (EDA)**: Studying feature distributions and their correlations to assess their impact on heart disease risk.
+The analysis steps include:
+1. **Data Cleaning**: Handling missing values, converting data types, and formatting features appropriately.
+2. **Exploratory Data Analysis (EDA)**: Examining the distribution of player attributes and relationships between key features such as age, overall rating, and value.
 
 ## 📊 **Visualizations**
-Various visualizations created with **Seaborn** and **Matplotlib** include:
-- **Heatmaps**: Displaying correlations between features, identifying those most associated with heart disease.
-- **Pair Plots**: Examining relationships between key variables.
-- **Bar Charts**: Comparing patients with and without heart problems based on multiple features.
+Visualizations created using **Seaborn** and **Matplotlib** include:
+- **Distribution Plots**: To visualize the spread of player ratings, ages, and potential.
+- **Heatmaps**: To identify correlations between different player attributes, such as skill levels and overall rating.
+- **Boxplots and Violin Plots**: To compare different player groups based on factors like position and preferred foot.
+- **Scatter Plots**: To explore relationships between players' value and their ratings.
 
 ## 🔍 **Insights**
-From the analysis:
-- **Age and Cholesterol Levels**: These factors show a strong association with increased heart disease risk.
-- **Feature Correlations**: The heatmap highlighted significant relationships, such as between blood pressure and cholesterol levels.
-- **Patient Analysis**: Differences between patients with and without heart issues were examined to pinpoint high-risk factors.
+From the visual analysis:
+- **Age vs. Rating**: Younger players often have higher potential ratings, while older players may have higher current ratings but lower potential.
+- **Position Impact**: Certain positions, like forwards, tend to have higher values and wages due to their impact on gameplay.
+- **Correlation Analysis**: Strong correlations were found between overall rating and skill attributes, indicating that skill improvement directly impacts player ratings.
 
 ## 📝 **Conclusion**
-The project provides valuable insights into the factors contributing to heart disease, demonstrating the effectiveness of data analysis and visualization in understanding health risks.
+This project showcases how data analysis and visualization techniques can provide valuable insights into player performance and attributes in **FIFA-19**. The findings highlight the importance of different features and their influence on player ratings and value.
 
